@@ -8,18 +8,14 @@ package javax;
  *
  * @author user
  */
-import javax.swing.*;
-
-public class latihan1 {
-    
+public class latihanSatu {
     public static void main(String[] args){
-        JFrame myWindow;
-        
-        myWindow=new JFrame();
+        javax.swing.JFrame myWindow;
+        myWindow=new javax.swing.JFrame();
         myWindow.setSize(300,200);
-        myWindow.setTitle("My First Program");
+        myWindow.setTitle("My First Java Program");
         myWindow.setVisible(true);
-       
+        
     }
     
     
